@@ -1,0 +1,24 @@
+/*------------------------------------------------------------------
+  	[Button]
+------------------------------------------------------------------*/
+.header__button {
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-bottom: 140px;
+  width: 213px;
+  height: 53px;
+  background-color: #ffffff;
+  border-radius: 26px;
+  font-size: 18px;
+  font-family: "Roboto Slab";
+  color: rgb(97, 35, 22);
+  line-height: 1.667;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__button:hover {
+  background-color: #dd4b2b;
+  color: #ffffff;
+  transform: scale(1.1,1.1);
+}

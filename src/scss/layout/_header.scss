@@ -1,0 +1,81 @@
+/*------------------------------------------------------------------
+    [Header]
+------------------------------------------------------------------*/
+
+header {
+  width: 100%;
+  min-height: 100vh;
+}
+.header__content {
+  width: 100%;
+  min-height: 1321px;
+  background: url("../img/header__background.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.header__content-head {
+  margin-bottom: 100px;
+  h2 {
+    padding: 5px 10px;
+    width: 100%;
+    font-size: 72px;
+    font-family: "Roboto Slab";
+    color: rgb(255, 255, 255);
+    line-height: 0.667;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+  }
+  p {
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto Slab";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.6;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+  }
+
+}
+.header__content-items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.header__content-item {
+  width: 370px;
+  height: 345px;
+  margin: 5px 15px;
+  img {
+    width: 148px;
+    height: 148px;
+    margin: 0 111px;
+  }
+  h3 {
+    margin-top: 27px;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto Slab";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.8;
+  }
+  p {
+    margin: 0 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+  }
+}
+
