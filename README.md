@@ -1,2 +1,2 @@
 # Panakeia-template
-Panakeia-template ( jqresp-menu paralax Lightbox)
+Panakeia-template (jq resp-menu paralax Lightbox)
