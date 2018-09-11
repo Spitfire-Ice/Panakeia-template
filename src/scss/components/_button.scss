@@ -41,5 +41,42 @@
   background-color: #dd4b2b;
   color: #ffffff;
 }
-
+.product__item-button-red {
+  width: 212px;
+  height: 54px;
+  border-radius: 27px;
+  background: #dd4b2b;
+  border: none;
+  box-shadow: none;
+  font-size: 18px;
+  font-family: "Roboto Slab";
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.product__item-button-red:hover {
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+.product__item-button-purple {
+  width: 212px;
+  height: 54px;
+  border-radius: 27px;
+  background: purple;
+  border: none;
+  box-shadow: none;
+  font-size: 18px;
+  font-family: "Roboto Slab";
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.product__item-button-purple:hover {
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
 

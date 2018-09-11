@@ -1,3 +1,47 @@
 /*------------------------------------------------------------------
   	[Footer]
 ------------------------------------------------------------------*/
+.footer {
+  width: 100%;
+}
+.footer__top {
+  width: 100%;
+  background-color: #d75d0e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer__top-item {
+  width: 370px;
+  margin: 40px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  p {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-align: center;
+  }
+  p:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+  }
+}
+.footer__bottom {
+  width: 100%;
+  min-height: 370px;
+  background: url("../img/newslatter-background.jpg") no-repeat center;
+  background-size: cover;
+  p {
+    padding-top: 90px;
+    font-size: 18px;
+    font-family: "Proxima Nova";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: center;
+  }
+}
