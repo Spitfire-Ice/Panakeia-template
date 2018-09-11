@@ -21,4 +21,25 @@
   background-color: #dd4b2b;
   color: #ffffff;
   transform: scale(1.1,1.1);
+  cursor: pointer;
 }
+
+.our-news__button {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(78, 81, 89);
+  height: 40px;
+  width: 150px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+}
+.our-news__button:hover {
+  cursor: pointer;
+  background-color: #dd4b2b;
+  color: #ffffff;
+}
+
+
